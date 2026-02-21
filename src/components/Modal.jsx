@@ -12,6 +12,7 @@ const Modal = forwardRef(({ children, buttonCaption }, ref) => {
       },
     };
   });
+  
   return createPortal(
     <dialog
       ref={dialog}

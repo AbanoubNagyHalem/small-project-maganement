@@ -26,6 +26,7 @@ function App() {
       };
     });
   };
+
   const handleDeleteTask = (id) => {
     setProjectsState((prevState) => {
       return {
