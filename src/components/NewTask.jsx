@@ -21,7 +21,7 @@ const NewTask = ({ onAdd }) => {
         onChange={handleChange}
         value={enteredTask}
       />
-      <button
+      <button 
         className="text-stone-700 hover:text-stone-950"
         onClick={handleClick}
       >
